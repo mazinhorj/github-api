@@ -1,0 +1,21 @@
+@keyframes rotate {
+  from {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.load_div {
+  height: 50px;
+}
+
+.loader {
+  animation: rotate 1s linear infinite;
+  position: absolute;
+  left: 50%;
+  margin-top: 1rem;
+  font-size: 2rem;
+  margin-left: -1rem;
+}

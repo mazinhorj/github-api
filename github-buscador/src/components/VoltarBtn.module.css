@@ -1,0 +1,19 @@
+.volta_btn {
+  position: absolute;
+  top: 2rem;
+  left: 2rem;
+  padding: .8rem 1.2rem;
+  border-radius: 32px;
+  border: none;
+  color: #acacac;
+  background-color: #222;
+  cursor: pointer;
+  opacity: .7;
+}
+
+.volta_btn:hover {
+  color: #fff;
+  opacity: 1;
+  transition: .4s;
+  box-shadow: 0px 0px 16px #ffffff93;
+}

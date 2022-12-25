@@ -1,0 +1,15 @@
+.app {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.app h1, p {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.logo_git svg {
+  font-size: 4rem;
+}
+
+
